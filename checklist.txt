@@ -1,0 +1,47 @@
+Sprint 1: Infraestrutura e Núcleo (Secção 1 e 2.1)
+[x] Criar ficheiro único Jupyter Notebook (.ipynb) com a estrutura de secções do enunciado.
+[x] 1.2: Criar classe CentralityAnalyzer.
+[x] 1.2: Implementar __init__(graph) com parsing do CSV para Lista de Adjacências.
+[ ] 1.2: Escrever análise teórica do espaço de memória (em função de V e E).
+[x] 2.1: Implementar método bfs(source).
+[ ] 2.1: Explicar funcionamento da BFS, estrutura auxiliar usada (Fila/Queue) e complexidade temporal.
+
+Sprint 2: Estrutura Básica do Grafo (Secções 2.2 a 2.4)
+[x] 2.2: Implementar num_components().
+[ ] 2.2: Implementar largest_component().
+[ ] 2.2: Responder às questões de conectividade (datasets GoT, caminho entre 2 personagens à escolha, comparação).
+[ ] 2.3: Implementar degree_distribution().
+[ ] 2.3: Escrever análise de complexidade temporal e espacial.
+[ ] 2.3: Gerar histogramas de graus (got_full e marvel_full) e responder às questões da Lei de Potência.
+[ ] 2.3: Extrair Top-10 por grau (got_book1 e got_full) e comparar.
+[ ] 2.4: Implementar diameter() (correr na maior componente conexa).
+[ ] 2.4: Calcular diâmetro (got_full e marvel_full), identificar par máximo e caminho. Responder à questão dos "6 graus".
+
+Sprint 3: Métricas de Centralidade (Secção 3)
+[ ] 3.1: Implementar degree_centrality().
+[ ] 3.1: Escrever análise de complexidade.
+[ ] 3.1: Extrair Top-10 (got_book1 e got_full) e comparar com o Top-10 da secção 2.3.
+[ ] 3.2: Implementar closeness_centrality() (Wasserman-Faust).
+[ ] 3.2: Escrever análise de complexidade.
+[ ] 3.2: Fazer teste de remoção do Eddard-Stark, calcular Deltas e explicar o impacto narrativo.
+[ ] 3.3: Implementar eigenvector_centrality() (Power Iteration). Retornar também 'k' iterações.
+[ ] 3.3: Escrever análise de complexidade.
+[ ] 3.3: Extrair Top-10 (got_book1) e justificar subidas/descidas face à métrica DC.
+[ ] 3.4: Implementar betweenness_centrality() (Algoritmo de Brandes).
+[ ] 3.4: Escrever análise de complexidade.
+[ ] 3.4: Extrair Top-10 (got_full e got_book1) e comparar as diferenças com a métrica CC.
+
+Sprint 4: Benchmarking e Escalabilidade (Secção 4)
+[ ] 4.1: Medir tempos de execução de DC, EC, CC e BC nos 4 datasets (usar mediana de 5 runs para os 3 menores).
+[ ] 4.1: Gerar Gráfico log-log (Eixo X: n+m | Eixo Y: Tempo em segundos). Responder às questões de declive/ordem.
+[ ] 4.2: Calcular rácio T_BC / T_CC para cada dataset.
+[ ] 4.2: Gerar Gráfico de Barras e justificar a constante escondida com base nas operações exclusivas do algoritmo de Brandes.
+[ ] 4.3: Calcular rácio T_CC / T_EC e o valor n/k.
+[ ] 4.3: Gerar Gráfico de Dispersão (Scatter Plot) com reta de referência y=x.
+[ ] 4.3: Responder às questões sobre o declive, desvio e velocidade de convergência do Power Iteration.
+
+Sprint 5: Revisão Final e Submissão
+[ ] Verificar se TODOS os métodos implementados têm justificação da complexidade temporal e espacial.
+[ ] 5.1 e 5.2: Preencher secção de Questões Éticas (colaborações externas e fontes).
+[ ] Teste Final: Fazer "Restart Kernel and Run All Cells". Confirmar que a execução chega ao fim sem o menor erro.
+[ ] Submissão: Fazer upload do ficheiro .ipynb (ou .zip com CSVs) no Moodle até 11 de maio.
