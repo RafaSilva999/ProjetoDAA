@@ -8,13 +8,13 @@ Sprint 1: Infraestrutura e Núcleo (Secção 1 e 2.1)
 
 Sprint 2: Estrutura Básica do Grafo (Secções 2.2 a 2.4)
 [x] 2.2: Implementar num_components().
-[ ] 2.2: Implementar largest_component().
+[x] 2.2: Implementar largest_component().
 [ ] 2.2: Responder às questões de conectividade (datasets GoT, caminho entre 2 personagens à escolha, comparação).
-[ ] 2.3: Implementar degree_distribution().
+[x] 2.3: Implementar degree_distribution().
 [ ] 2.3: Escrever análise de complexidade temporal e espacial.
 [ ] 2.3: Gerar histogramas de graus (got_full e marvel_full) e responder às questões da Lei de Potência.
 [ ] 2.3: Extrair Top-10 por grau (got_book1 e got_full) e comparar.
-[ ] 2.4: Implementar diameter() (correr na maior componente conexa).
+[x] 2.4: Implementar diameter() (correr na maior componente conexa).
 [ ] 2.4: Calcular diâmetro (got_full e marvel_full), identificar par máximo e caminho. Responder à questão dos "6 graus".
 
 Sprint 3: Métricas de Centralidade (Secção 3)
@@ -45,3 +45,13 @@ Sprint 5: Revisão Final e Submissão
 [ ] 5.1 e 5.2: Preencher secção de Questões Éticas (colaborações externas e fontes).
 [ ] Teste Final: Fazer "Restart Kernel and Run All Cells". Confirmar que a execução chega ao fim sem o menor erro.
 [ ] Submissão: Fazer upload do ficheiro .ipynb (ou .zip com CSVs) no Moodle até 11 de maio.
+
+
+
+
+
+
+
+
+Sec. 3:
+    usar o package do python networkx apenas para validar se os valores que estamos a validar estão de acordo com o package
