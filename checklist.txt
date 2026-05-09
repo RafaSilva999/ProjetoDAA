@@ -55,3 +55,11 @@ Sprint 5: Revisão Final e Submissão
 
 Sec. 3:
     usar o package do python networkx apenas para validar se os valores que estamos a validar estão de acordo com o package
+
+
+
+
+
+
+
+melhorar os textos dos pontos 2
